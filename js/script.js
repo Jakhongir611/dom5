@@ -35,9 +35,13 @@ let swiper2 = new Swiper(".mySwiper2", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    loop: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+    },
+    keyboard: {
+        enabled: true,
     },
 });
 
@@ -53,7 +57,11 @@ var swiper3 = new Swiper(".mySwiper3", {
         modifier: 1,
         slideShadows: true,
     },
+    loop: true,
     pagination: {
         el: ".swiper-pagination",
+    },
+    keyboard: {
+        enabled: true,
     },
 });
